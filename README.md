@@ -52,7 +52,7 @@ Here you can upload your own code in the website directory. I have used to clone
 cd website/
 git clone https://github.com/amalbosemathew/aws-elb-site ./
 ```
-# Creating docker container for PHP website with self-signed certicate.
+# Creating docker container for PHP website with self-signed certificate.
 Steps
 
 ```sh
