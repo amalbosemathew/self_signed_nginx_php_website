@@ -23,9 +23,9 @@ Creating a simple php website using Docker-compose. Website will be self-signed.
 ---
 # Installation 
 
-- [Docker installation]("https://docs.docker.com/get-docker/") 
-- Alternatively from the above, you can use Pre-installed [Docker Terminal]("https://labs.play-with-docker.com/") _(For the easy access to configured Docker environment especially for beginers)
-- [Git installation]("https://git-scm.com/download/linux")
+- [Docker installation](https://docs.docker.com/get-docker) 
+- Alternatively from the above, you can use Pre-installed [Docker Terminal](https://labs.play-with-docker.com) (For the easy access to configured Docker environment especially for beginers)
+- [Git installation](https://git-scm.com/download/linux)
 -  [Docker-compose](https://docs.docker.com/compose/install/)
 
 ---
