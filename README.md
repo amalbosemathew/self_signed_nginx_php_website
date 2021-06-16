@@ -40,7 +40,7 @@ cd self_signed_nginx_php_website/
 
 ### Screenshots
 
-Cloning the repository from Github and installating docker-compose :
+Cloning the repository from Github and installing docker-compose :
 
 ![alt text](https://i.ibb.co/7N802gy/Screenshot-from-2021-06-16-19-01-39.png)
 
