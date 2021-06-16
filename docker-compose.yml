@@ -1,0 +1,31 @@
+version: "3"
+
+services:
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    restart: always
+    networks: 
+      - nginx_net
+    ports:
+      - "8080:80"
+      - "443:443"
+    volumes:
+      - ./website:/var/www/myapp
+      - ./site.conf:/etc/nginx/conf.d/site.conf
+      - ./myapp.com.crt:/etc/nginx/myapp.com.crt
+      - ./myapp.com.key:/etc/nginx/myapp.com.key
+    depends_on:
+      - php
+
+  php:
+    image: php:7.4-fpm
+    restart: always
+    container_name: php
+    networks: 
+      - nginx_net
+    volumes:
+      - ./website:/var/www/myapp
+networks:
+  nginx_net:
