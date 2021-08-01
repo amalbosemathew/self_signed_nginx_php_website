@@ -75,9 +75,3 @@ docker-compose down -v <--------To stop containers created using the docker-comp
 
 The Intention of this Reposistory is to showcase the php website using Docker-compose.
 
-<p align="center">
-<a href="mailto:mathew.amalbose@gmail.com"><img src="https://img.shields.io/badge/-mathew.amalbose@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
-<a href="https://www.linkedin.com/in/amal-bose-mathew"><img src="https://img.shields.io/badge/-Linkedin-blue"/></a>
-<a href="https://techbit-new.blogspot.com/"><img src="https://img.shields.io/badge/-Blogger-orange"/></a>
-  
-
